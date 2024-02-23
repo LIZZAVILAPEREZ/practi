@@ -1,0 +1,74 @@
+.boton-1{
+    margin-top: 5px;
+    padding: 5px;
+    color: hsl(268, 69%, 47%);
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    background-color: #cd007e;
+   
+    transition:  background-color 0.2s ease;
+}
+.boton-1:hover{
+    background-color: rgb(223, 136, 22);
+}
+.boton-2{
+    margin-top: 5px;
+    background-color:rgb(146, 129, 129);
+    padding: 5px;
+    color:  rgb(175, 143, 188);
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    transition:  background-color 0.2s ease;
+}
+.boton-2:hover{
+    background-color: rgb(128, 0, 70);
+}
+.boton-3{
+    margin-top: 2px;
+    background-color:  rgb(146, 129, 129);
+    padding: 5px;
+    color: rgb(175, 143, 188);
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    transition:  background-color 0.2s ease;
+}
+.boton-3:hover{
+    background-color: rgb(128, 0, 70);
+}
+.boton-a{
+    margin-top: 5px;
+    background-color: rgb(146, 129, 129);
+    padding: 5px;
+    color:  rgb(175, 143, 188);
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    transition:  background-color 0.2s ease;
+}
+.boton-a:hover{
+    background-color: rgb(128, 0, 70);
+}
+:root{
+    --fondodiv : rgb(219, 32, 157);
+    --colortexto : white;
+    --colorpeligro : rgb(116, 42, 165);
+   
+}
+.c{
+    background-color: var(--fondodiv);
+    color: var(--colortexto);
+}
+.ce{
+    color : var(--colorpeligro)
+}
+.ca{
+background-color: var(--colorcaja);
+color: var(--colorpeligro);
+}
